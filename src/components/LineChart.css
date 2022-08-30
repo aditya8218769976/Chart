@@ -1,0 +1,51 @@
+.main-div h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.svg-style {
+  display: flex;
+  margin-top: 10rem;
+  height: 25rem;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid black;
+  background: #f8c3c3;
+}
+
+@media only screen and (min-width: 705px) {
+  .svg-style {
+    width: 50%;
+    background: rgb(218, 204, 204);
+  }
+}
+@media only screen and (min-width: 480) {
+  .svg-style {
+    width: 90%;
+  }
+}
+
+.svg-style svg {
+  overflow: visible;
+}
+
+.actions {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  column-gap: 1rem;
+  height: 2rem;
+  font-size: 2rem;
+}
+.actions button {
+  outline: none;
+  border: none;
+  font-size: 28px;
+}
+
+.actions button:hover {
+  background: rgb(210, 176, 241);
+}
