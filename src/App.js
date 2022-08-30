@@ -12,7 +12,7 @@ function App() {
     <React.Fragment>
       <nav className="nav-style">
         <div className="nav-left">
-          <img src={Logo} />
+          <img src={Logo} alt="error" />
           <h1>ChartApp</h1>
         </div>
 
